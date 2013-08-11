@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Check for target product
-ifeq (pa_n7000,$(TARGET_PRODUCT))
+ifeq (pa_nypon,$(TARGET_PRODUCT))
 
 # Define PA bootanimation size
 PARANOID_BOOTANIMATION_NAME := HDPI
@@ -22,7 +22,7 @@ PARANOID_BOOTANIMATION_NAME := HDPI
 OVERLAY_TARGET := pa_hdpi
 
 # Build paprefs from sources
-PREFS_FROM_SOURCE ?= false
+PREFS_FROM_SOURCE := false
 
 # Include ParanoidAndroid common configuration
 include vendor/pa/config/pa_common.mk
