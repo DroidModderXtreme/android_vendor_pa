@@ -19,3 +19,7 @@ add_lunch_combo pa_i605-userdebug
 add_lunch_combo pa_l900-userdebug
 add_lunch_combo pa_find5-userdebug
 add_lunch_combo pa_janice-userdebug
+add_lunch_combo pa_kumquat-userdebug
+add_lunch_combo pa_nypon-userdebug
+add_lunch_combo pa_lotus-userdebug
+add_lunch_combo pa_pepper-userdebug
