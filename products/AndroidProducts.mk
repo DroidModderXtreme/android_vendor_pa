@@ -124,3 +124,15 @@ endif
 ifeq (pa_janice,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_janice.mk
 endif
+ifeq (pa_tilapia,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_nypon.mk
+endif
+ifeq (pa_tilapia,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_kumquat.mk
+endif
+ifeq (pa_tilapia,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_pepper.mk
+endif
+ifeq (pa_tilapia,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_lotus.mk
+endif
