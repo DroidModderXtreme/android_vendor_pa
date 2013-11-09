@@ -109,3 +109,15 @@ endif
 ifeq (pa_tf700t,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_tf700t.mk
 endif
+ifeq (pa_nypon,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_nypon.mk
+endif
+ifeq (pa_kumquat,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_kumquat.mk
+endif
+ifeq (pa_pepper,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_pepper.mk
+endif
+ifeq (pa_lotus,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_lotus.mk
+endif
